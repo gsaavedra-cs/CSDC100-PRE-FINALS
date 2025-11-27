@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guidelines and discussion on ethical use of AI and best practices.">
+  <title>Ethical Use of AI</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Generative AI Prefinals</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="article.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="ethics.html">Ethics</a></li>
+          <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container hero text-center mt-5">
+    <h1 class="display-5 fw-bold">Ethical Use of Generative AI</h1>
+    <p class="lead text-muted">Principles and practical guidelines for responsible use of Generative AI systems.</p>
+  </header>
+
+  <main class="container mt-4">
+    <article>
+      <section class="mb-4">
+        <h2>Core principles</h2>
+        <ul>
+          <li><strong>Transparency:</strong> Document how Generative AI was used and which tools/models were involved.</li>
+          <li><strong>Accountability:</strong> Keep humans in the loop and assign responsibility for final outputs.</li>
+          <li><strong>Fairness:</strong> Monitor and mitigate bias; test across diverse inputs.</li>
+          <li><strong>Privacy:</strong> Avoid exposing private data during prompts or training.</li>
+          <li><strong>Safety:</strong> Validate outputs, especially for high-risk domains.</li>
+        </ul>
+      </section>
+
+      <section class="mb-4">
+        <h2>Governance and best practices</h2>
+        <p>Organizations should implement simple, effective processes before deploying Generative AI:</p>
+        <ol>
+          <li>Impact assessment: evaluate potential harms and benefits for a given use case.</li>
+          <li>Model selection and testing: choose models that support traceability and test them on representative inputs.</li>
+          <li>Access controls: limit who can run generation tasks and monitor usage.</li>
+          <li>Logging & provenance: record prompts, model versions, and outputs for audits.</li>
+        </ol>
+      </section>
+
+      <section class="mb-4">
+        <h2>Practical checklist for teams</h2>
+        <ul>
+          <li>Confirm data privacy and remove sensitive data from prompts.</li>
+          <li>Use RAG or citation-aware methods for factual outputs.</li>
+          <li>Run bias and safety tests before production rollout.</li>
+          <li>Provide user guidance about AI limitations and how to verify results.</li>
+        </ul>
+      </section>
+
+      <section class="mb-4">
+        <h2>References & further reading</h2>
+        <p>https://www.ibm.com/think/topics/generative-ai</p>
+      <p>https://www.techtarget.com/searchenterpriseai/tip/Generative-AI-ethics-8-biggest-concerns</p>
+      </section>
+
+      
+    </article>
+  </main>
+
+  <footer class="bg-dark text-light text-center py-3 mt-5">
+    <p class="mb-0">© 2025 MySite. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
