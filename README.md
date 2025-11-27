@@ -9,7 +9,13 @@ This website explores the fundamentals of Generative AI (GenAI) and the ethical 
 Bootstrap, VSCode, GitHub
 
 ## Screenshots
-![home](.assets/screenshots/home.png)
+![Home Page](assets/screenshots/home.png)
+![FAQs Section](assets/screenshots/faqs.png)
+![Article View](assets/screenshots/article.png)
+![Ethics](assets/screenshots/ethics.png)
+
+
+
 
 
 ## Visit Website here
