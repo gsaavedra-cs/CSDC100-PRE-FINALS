@@ -9,6 +9,8 @@ This website explores the fundamentals of Generative AI (GenAI) and the ethical 
 Bootstrap, VSCode, GitHub
 
 ## Screenshots
+![home](.screenshots/home.png)
+
 
 ## Visit Website here
 https://saavedra-csdc100-prefi.netlify.app
