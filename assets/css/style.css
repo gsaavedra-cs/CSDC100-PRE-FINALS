@@ -1,0 +1,20 @@
+/* Small custom styles to complement Bootstrap */
+body {
+  padding-top: 70px;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+.hero {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+.card-body h5 {
+  margin-top: 0.5rem;
+}
+.footer-link {
+  color: #dbeafe;
+}
+@media (max-width: 576px) {
+  .hero { padding: 40px 0; }
+}
